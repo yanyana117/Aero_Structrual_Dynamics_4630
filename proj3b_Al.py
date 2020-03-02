@@ -3,6 +3,7 @@ from fenics import *
 from ufl import nabla_div
 import math
 
+# 3b_Aluminum
 length = 50 * 0.001     # 0.05
 width = 5 * 0.001       # 0.005
 height = 5 * 0.001      # 0.005
