@@ -36,7 +36,7 @@ def epsilon(u):
 def sigma(u):
     eps = epsilon(u)
     return _lambda*tr(eps)*Identity(3) + mu*(eps + eps.T)
- 
+
 #==========================================================#
 # Static problem
 #  d/dx (EA du/dx) + f = 0
@@ -68,8 +68,11 @@ solve(a==L, u_init, bc_left)
 #==========================================================
 
 t = 0
-t_final = 2.75e-3  # 1x10^-3
-dt = 5e-7   	   # 5x10^-5
+t_final = 3e-3  # 1x10^-3
+# copper t_final = 4e-3
+dt = 1.7e-7   	   # 5x10^-5
+
+# dt on notes Feb.19th mesh size, goemeter
 
 T = Constant((0.0,0.0,0.0))
 u = TrialFunction(V)
@@ -112,9 +115,12 @@ while t <= t_final:
 
     # write some output
     xdmffile_disp.write(u,t)
+    # xdmffile_disp.write(u.sub(1),t)
+    # add in 3c: Accounnece
     # time marching
     u_n_2.assign(u_n_1)     # u_n_2 = u_n_1
     u_n_1.assign(u)         # u_n_1 = u_n
     # increment time
+
     t = t + dt
 print('And we are done!')
