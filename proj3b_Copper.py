@@ -68,8 +68,8 @@ solve(a==L, u_init, bc_left)
 #==========================================================
 
 t = 0
-t_final = 2.75e-3  # 1x10^-3
-dt = 5e-7      # 5x10^-5
+t_final = 4e-3  # 1x10^-3
+dt = 1.7e-7      # 5x10^-5
 
 T = Constant((0.0,0.0,0.0))
 u = TrialFunction(V)
@@ -112,15 +112,18 @@ xdmffile_stress.parameters['flush_output'] = True
 xdmffile_vonmises.parameters['flush_output'] = True
 #=========================================================
 
-while t <= t_final:
-    print('t = %f'%t)
-    solve(a==L, u, bc_left)
+index = 0
+while t < t_final_nd :
+    print ('t = %f'%t)
+    solve (a==L, u, bc_left)
 
-    # write some output
-    xdmffile_disp.write(u,t)
-    # time marching
-    u_n_2.assign(u_n_1)     # u_n_2 = u_n_1
-    u_n_1.assign(u)         # u_n_1 = u_n
-    # increment time
-    t = t + dt
+    if (index % 10 == 0) :
+        # write some output
+        xdmffile_disp.write(u.sub(1), t)
+
+    u_n_2.assign(u_n_1)      # u_n_2 = u_n_1
+    u_n_1.assign(u)          # u_n_1 = u
+
+    t = t + dt_nd
+    index = index + 1
 print('And we are done!')
