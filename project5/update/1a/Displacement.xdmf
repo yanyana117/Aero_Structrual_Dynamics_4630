@@ -1,0 +1,1808 @@
+<?xml version="1.0"?>
+<!DOCTYPE Xdmf SYSTEM "Xdmf.dtd" []>
+<Xdmf Version="3.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <Domain>
+    <Grid Name="TimeSeries_Displacement" GridType="Collection" CollectionType="Temporal">
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/0/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/0/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="6.666666666666667e-05" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/0</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/1/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/1/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.00013333333333333334" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/1</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/2/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/2/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.00020000000000000001" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/2</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/3/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/3/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.00026666666666666668" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/3</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/4/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/4/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.00033333333333333338" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/4</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/5/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/5/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.00040000000000000002" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/5</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/6/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/6/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.00046666666666666666" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/6</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/7/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/7/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.00053333333333333336" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/7</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/8/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/8/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.00060000000000000006" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/8</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/9/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/9/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.00066666666666666675" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/9</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/10/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/10/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.00073333333333333334" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/10</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/11/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/11/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.00080000000000000004" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/11</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/12/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/12/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.00086666666666666674" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/12</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/13/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/13/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.00093333333333333332" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/13</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/14/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/14/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.001" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/14</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/15/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/15/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0010666666666666667" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/15</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/16/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/16/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0011333333333333334" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/16</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/17/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/17/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0012000000000000001" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/17</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/18/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/18/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0012666666666666668" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/18</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/19/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/19/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0013333333333333335" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/19</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/20/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/20/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0014" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/20</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/21/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/21/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0014666666666666667" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/21</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/22/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/22/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0015333333333333334" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/22</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/23/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/23/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0016000000000000001" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/23</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/24/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/24/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0016666666666666668" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/24</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/25/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/25/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0017333333333333335" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/25</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/26/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/26/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0018000000000000002" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/26</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/27/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/27/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0018666666666666666" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/27</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/28/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/28/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0019333333333333333" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/28</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/29/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/29/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.002" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/29</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/30/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/30/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0020666666666666667" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/30</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/31/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/31/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0021333333333333334" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/31</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/32/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/32/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0022000000000000001" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/32</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/33/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/33/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0022666666666666668" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/33</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/34/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/34/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0023333333333333335" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/34</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/35/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/35/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0024000000000000002" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/35</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/36/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/36/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0024666666666666669" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/36</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/37/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/37/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0025333333333333336" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/37</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/38/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/38/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0026000000000000003" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/38</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/39/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/39/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.002666666666666667" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/39</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/40/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/40/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0027333333333333333" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/40</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/41/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/41/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0028" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/41</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/42/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/42/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0028666666666666667" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/42</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/43/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/43/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0029333333333333334" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/43</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/44/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/44/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0030000000000000001" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/44</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/45/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/45/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0030666666666666668" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/45</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/46/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/46/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0031333333333333335" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/46</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/47/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/47/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0032000000000000002" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/47</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/48/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/48/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0032666666666666669" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/48</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/49/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/49/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0033333333333333335" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/49</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/50/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/50/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0034000000000000002" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/50</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/51/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/51/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0034666666666666669" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/51</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/52/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/52/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0035333333333333336" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/52</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/53/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/53/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0036000000000000003" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/53</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/54/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/54/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.003666666666666667" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/54</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/55/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/55/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0037333333333333333" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/55</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/56/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/56/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0038" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/56</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/57/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/57/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0038666666666666667" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/57</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/58/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/58/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0039333333333333338" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/58</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/59/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/59/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0040000000000000001" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/59</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/60/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/60/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0040666666666666672" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/60</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/61/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/61/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0041333333333333335" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/61</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/62/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/62/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0042000000000000006" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/62</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/63/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/63/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0042666666666666669" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/63</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/64/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/64/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0043333333333333331" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/64</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/65/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/65/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0044000000000000003" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/65</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/66/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/66/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0044666666666666665" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/66</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/67/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/67/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0045333333333333337" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/67</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/68/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/68/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0045999999999999999" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/68</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/69/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/69/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0046666666666666671" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/69</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/70/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/70/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0047333333333333333" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/70</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/71/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/71/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0048000000000000004" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/71</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/72/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/72/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0048666666666666667" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/72</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/73/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/73/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0049333333333333338" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/73</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/74/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/74/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0050000000000000001" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/74</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/75/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/75/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0050666666666666672" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/75</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/76/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/76/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0051333333333333335" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/76</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/77/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/77/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0052000000000000006" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/77</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/78/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/78/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0052666666666666669" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/78</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/79/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/79/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.005333333333333334" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/79</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/80/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/80/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0054000000000000003" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/80</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/81/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/81/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0054666666666666665" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/81</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/82/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/82/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0055333333333333337" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/82</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/83/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/83/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0055999999999999999" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/83</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/84/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/84/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0056666666666666671" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/84</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/85/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/85/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0057333333333333333" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/85</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/86/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/86/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0058000000000000005" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/86</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/87/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/87/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0058666666666666667" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/87</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/88/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/88/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0059333333333333339" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/88</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/89/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/89/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0060000000000000001" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/89</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/90/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/90/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0060666666666666673" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/90</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/91/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/91/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0061333333333333335" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/91</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/92/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/92/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0062000000000000006" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/92</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/93/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/93/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0062666666666666669" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/93</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/94/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/94/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.006333333333333334" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/94</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/95/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/95/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0064000000000000003" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/95</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/96/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/96/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0064666666666666666" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/96</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/97/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/97/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0065333333333333337" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/97</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/98/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/98/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0066" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/98</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/99/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/99/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0066666666666666671" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/99</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/100/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/100/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0067333333333333334" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/100</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/101/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/101/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0068000000000000005" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/101</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/102/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/102/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0068666666666666668" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/102</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/103/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/103/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0069333333333333339" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/103</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/104/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/104/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0070000000000000001" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/104</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/105/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/105/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0070666666666666673" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/105</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/106/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/106/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0071333333333333335" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/106</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/107/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/107/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0072000000000000007" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/107</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/108/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/108/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0072666666666666669" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/108</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/109/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/109/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0073333333333333341" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/109</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/110/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/110/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0074000000000000003" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/110</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/111/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/111/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0074666666666666666" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/111</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/112/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/112/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0075333333333333337" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/112</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/113/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/113/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0076" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/113</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/114/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/114/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0076666666666666671" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/114</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/115/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/115/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0077333333333333334" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/115</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/116/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/116/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0078000000000000005" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/116</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/117/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/117/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0078666666666666676" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/117</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/118/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/118/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0079333333333333339" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/118</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/119/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/119/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0080000000000000002" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/119</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/120/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/120/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0080666666666666664" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/120</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/121/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/121/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0081333333333333344" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/121</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/122/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/122/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0082000000000000007" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/122</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/123/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/123/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.008266666666666667" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/123</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/124/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/124/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0083333333333333332" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/124</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/125/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/125/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0084000000000000012" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/125</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/126/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/126/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0084666666666666675" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/126</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/127/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/127/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0085333333333333337" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/127</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/128/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/128/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0086" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/128</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/129/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/129/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0086666666666666663" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/129</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/130/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/130/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0087333333333333343" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/130</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/131/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/131/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0088000000000000005" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/131</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/132/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/132/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0088666666666666668" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/132</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/133/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/133/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0089333333333333331" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/133</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/134/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/134/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0090000000000000011" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/134</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/135/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/135/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0090666666666666673" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/135</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/136/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/136/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0091333333333333336" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/136</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/137/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/137/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0091999999999999998" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/137</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/138/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/138/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0092666666666666678" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/138</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/139/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/139/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0093333333333333341" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/139</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/140/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/140/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0094000000000000004" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/140</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/141/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/141/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0094666666666666666" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/141</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/142/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/142/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0095333333333333346" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/142</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/143/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/143/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0096000000000000009" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/143</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/144/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/144/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0096666666666666672" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/144</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/145/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/145/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0097333333333333334" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/145</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/146/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/146/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0097999999999999997" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/146</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/147/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/147/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0098666666666666677" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/147</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/148/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/148/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0099333333333333339" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/148</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="4320" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="4320 4" NumberType="UInt" Format="HDF">Displacement.h5:/Mesh/149/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/Mesh/149/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.01" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1029 3" Format="HDF">Displacement.h5:/VisualisationVector/149</DataItem>
+        </Attribute>
+      </Grid>
+    </Grid>
+  </Domain>
+</Xdmf>
