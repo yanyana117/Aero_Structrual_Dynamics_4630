@@ -85,7 +85,8 @@ traction_applied = drag_traction(0.5, 1.2, vw)
 ###############################
 # T = Expression(('x[2]>=0*height && x[2]<=0.97*height ? traction: 0.0','0.0','0.0'), traction=traction, height=height, degree = 2)
 
-T = Expression(( 'x[2]>=0*height && x[2]<= 0.97*height ? traction_applied : 0.0', '0.0','0.0'), traction=traction_applied, height=height, degree = 1)
+T = Expression(( 'x[2]>=0*height && x[2]<= 0.97*height ? traction_applied : 0.0', '0.0','0.0'), traction=traction_applied,\
+	       height=height, degree = 1)
 # Note on Expressions:
 # 	Expressions is a  very powerful tool. It is primarily used to define
 #	complex conditions in a statement using C++ like syntax.
